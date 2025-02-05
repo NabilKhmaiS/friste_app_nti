@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nti/function/home/views/Custum_appBar/Custom_appBar.dart';
+import 'package:nti/function/home/views/cho_text.dart';
 
 class HomeScrren extends StatelessWidget {
   const HomeScrren({super.key});
@@ -9,7 +10,9 @@ class HomeScrren extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: [
-          CustomAppbar()
+          CustomAppbar(),
+          ChoText()
+
         ],
 
       )
@@ -17,3 +20,12 @@ class HomeScrren extends StatelessWidget {
 
   }
 }
+
+
+
+
+
+
+
+
+
